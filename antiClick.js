@@ -197,11 +197,8 @@ container.setAttribute('display', 'block');
 container.setAttribute('text-align', 'center');
 container.setAttribute('margin-right', 'auto');
 container.setAttribute('margin-right', 'auto');
-container.setAttribute('width', '500');
-container.setAttribute('height', '500');
-container.class='center';
-container.width='500';
-container.height='500';
+container.setAttribute('width', '300');
+container.setAttribute('height', '300');
 
 // Create input section
 const inputSection = document.createElement('div');

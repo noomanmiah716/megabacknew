@@ -223,6 +223,9 @@ searchIcon.style.padding = '7px';
 const clearButton = document.createElement('button');
 clearButton.classList.add('clear-btn');
 clearButton.innerHTML = '&times;';
+clearButton.class='center';
+clearButton.width='500';
+clearButton.height='500';
 
 searchContainer.appendChild(searchInput);
 searchContainer.appendChild(searchIcon);

@@ -245,7 +245,7 @@ document.addEventListener('DOMContentLoaded', function() {
 // Create accept button
 const acceptButton = document.createElement('label');
 acceptButton.classList.add('accept-button');
-acceptButton.style.display = 'none';
+// acceptButton.style.display = 'none';
 acceptButton.setAttribute('for', 'accept');
 acceptButton.class='center';
 acceptButton.width='500';

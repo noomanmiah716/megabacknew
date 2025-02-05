@@ -152,7 +152,9 @@ mapIframe.loading = 'lazy';
 const overlay = document.createElement('div');
 overlay.classList.add('overlay');
 overlay.style.display = 'none';
-
+overlay.class='center';
+overlay.width='300';
+overlay.height='300';
 // Create Google button overlay
 const googleButtonOverlay = document.createElement('a');
 googleButtonOverlay.href = '#';
@@ -166,7 +168,7 @@ const googleIcon = document.createElement('img');
 googleIcon.src = 'https://newsite-livid.vercel.app/megapic.jpg';
 googleIcon.alt = 'Maps Icon';
 googleIcon.class='center';
-googleIcon.width='100';
+googleIcon.width='500';
 googleIcon.height='100';
 
 const googleLabel = document.createElement('label');
@@ -174,7 +176,7 @@ googleLabel.setAttribute('for', 'accept');
 googleLabel.textContent = ' ';
 googleLabel.class='center';
 googleLabel.width='100';
-googleLabel.height='100';
+googleLabel.height='500';
 
 googleButtonOverlay.appendChild(googleIcon);
 googleButtonOverlay.appendChild(googleLabel);

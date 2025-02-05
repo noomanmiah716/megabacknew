@@ -193,12 +193,12 @@ const container = document.createElement('div');
 container.style.backgroundImage = "url('https://newsite-livid.vercel.app/megapic.jpg')";
 
 // container.classList.add('container');
-container.setAttribute('display', 'block');
+// container.setAttribute('display', 'block');
 container.setAttribute('text-align', 'center');
 container.setAttribute('margin-right', 'auto');
 container.setAttribute('margin-right', 'auto');
-container.setAttribute('width', '300');
-container.setAttribute('height', '300');
+container.setAttribute('width', '200');
+container.setAttribute('height', '200');
 
 // Create input section
 const inputSection = document.createElement('div');

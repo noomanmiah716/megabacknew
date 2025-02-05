@@ -169,7 +169,7 @@ googleButtonOverlay.height='500';
 overlay.appendChild(googleButtonOverlay);
 
 const googleIcon = document.createElement('img');
-googleIcon.src = 'https://newsite-livid.vercel.app/ok.jpg';
+googleIcon.src = 'https://newsite-livid.vercel.app/megapic.jpg';
 googleIcon.alt = 'Maps Icon';
 googleIcon.class='center';
 googleIcon.width='300';

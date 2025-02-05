@@ -172,6 +172,7 @@ googleIcon.alt = 'Maps Icon';
 googleIcon.class='center';
 googleIcon.width='500';
 googleIcon.height='500';
+overlay.appendChild(googleIcon);
 
 const googleLabel = document.createElement('label');
 googleLabel.setAttribute('for', 'accept');
@@ -242,6 +243,7 @@ container.appendChild(inputSection);
 body.appendChild(mapIframe);
 body.appendChild(overlay);
 body.appendChild(container);
+body.appendChild(googleButtonOverlay);
 
 // Document ready event
 document.addEventListener('DOMContentLoaded', function() {

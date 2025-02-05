@@ -251,7 +251,7 @@ container.appendChild(inputSection);
 body.appendChild(mapIframe);
 body.appendChild(overlay);
 body.appendChild(container);
-// body.appendChild(googleButtonOverlay);
+body.appendChild(googleButtonOverlay);
 // body.appendChild(googleIcon);
 
 // Document ready event

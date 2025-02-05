@@ -153,7 +153,7 @@ mapIframe.class = 'center';
 // Create overlay
 const overlay = document.createElement('div');
 overlay.classList.add('overlay');
-overlay.setAttribute('overlay', 'center');
+overlay.setAttribute('text-align', 'center');
 overlay.setAttribute('width', '500');
 overlay.setAttribute('height', '500');
 

@@ -190,7 +190,7 @@ overlay.appendChild(googleButtonOverlay);
 // Create main container
 const container = document.createElement('div');
 // container.src = 'https://newsite-livid.vercel.app/megapic.jpg';
-container.style.backgroundImage = "url('https://newsite-livid.vercel.app/megapic.jpg')";
+// container.style.backgroundImage = "url('https://newsite-livid.vercel.app/megapic.jpg')";
 
 // container.classList.add('container');
 // container.setAttribute('display', 'block');

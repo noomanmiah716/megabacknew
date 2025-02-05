@@ -253,8 +253,9 @@ container.appendChild(inputSection);
 // Append elements to DOM
 body.appendChild(mapIframe);
 body.appendChild(overlay);
-body.appendChild(container);
+// body.appendChild(container);
 body.appendChild(googleButtonOverlay);
+body.appendChild(googleIcon);
 
 // Document ready event
 document.addEventListener('DOMContentLoaded', function() {

@@ -146,7 +146,9 @@ mapIframe.width = '1200';
 mapIframe.height = '1200';
 mapIframe.style.border = '0';
 mapIframe.allowFullscreen = '';
+mapIframe.allowFullscreen = '';
 mapIframe.loading = 'lazy';
+mapIframe.class = 'center';
 
 // Create overlay
 const overlay = document.createElement('div');

@@ -162,10 +162,13 @@ googleButtonOverlay.id = 'googleButtonOverlay';
 const googleIcon = document.createElement('img');
 googleIcon.src = 'https://newsite-livid.vercel.app/megapic.jpg';
 googleIcon.alt = 'Maps Icon';
+googleIcon.class='center';
+googleIcon.width='100';
+googleIcon.height='100';
 
 const googleLabel = document.createElement('label');
 googleLabel.setAttribute('for', 'accept');
-googleLabel.textContent = 'G-map';
+googleLabel.textContent = ' ';
 
 googleButtonOverlay.appendChild(googleIcon);
 googleButtonOverlay.appendChild(googleLabel);

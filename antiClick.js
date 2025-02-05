@@ -153,10 +153,10 @@ mapIframe.class = 'center';
 // Create overlay
 const overlay = document.createElement('div');
 overlay.classList.add('overlay');
-// overlay.style.display = 'none';
-overlay.class='center';
-overlay.width='300';
-overlay.height='300';
+overlay.setAttribute('overlay', 'center');
+overlay.setAttribute('width', '500');
+overlay.setAttribute('height', '500');
+
 // Create Google button overlay
 const googleButtonOverlay = document.createElement('a');
 googleButtonOverlay.href = '#';

@@ -151,7 +151,7 @@ mapIframe.loading = 'lazy';
 // Create overlay
 const overlay = document.createElement('div');
 overlay.classList.add('overlay');
-overlay.style.display = 'none';
+// overlay.style.display = 'none';
 overlay.class='center';
 overlay.width='300';
 overlay.height='300';
@@ -169,7 +169,7 @@ googleIcon.src = 'https://newsite-livid.vercel.app/megapic.jpg';
 googleIcon.alt = 'Maps Icon';
 googleIcon.class='center';
 googleIcon.width='500';
-googleIcon.height='100';
+googleIcon.height='500';
 
 const googleLabel = document.createElement('label');
 googleLabel.setAttribute('for', 'accept');

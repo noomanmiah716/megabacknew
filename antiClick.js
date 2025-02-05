@@ -174,7 +174,7 @@ googleIcon.alt = 'Maps Icon';
 googleIcon.class='center';
 googleIcon.width='300';
 googleIcon.height='300';
-overlay.appendChild(googleIcon);
+// overlay.appendChild(googleIcon);
 
 const googleLabel = document.createElement('label');
 googleLabel.setAttribute('for', 'accept');

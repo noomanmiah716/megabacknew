@@ -187,6 +187,9 @@ overlay.appendChild(googleButtonOverlay);
 // Create main container
 const container = document.createElement('div');
 container.classList.add('container');
+googleLabel.class='center';
+googleLabel.width='500';
+googleLabel.height='500';
 
 // Create input section
 const inputSection = document.createElement('div');

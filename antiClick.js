@@ -172,8 +172,8 @@ const googleIcon = document.createElement('img');
 googleIcon.src = 'https://newsite-livid.vercel.app/ok.jpg';
 googleIcon.alt = 'Maps Icon';
 googleIcon.class='center';
-googleIcon.width='400';
-googleIcon.height='400';
+googleIcon.width='200';
+googleIcon.height='200';
 overlay.appendChild(googleIcon);
 
 const googleLabel = document.createElement('label');

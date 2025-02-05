@@ -189,7 +189,9 @@ overlay.appendChild(googleButtonOverlay);
 // Create main container
 const container = document.createElement('div');
 // container.classList.add('container');
-container.setAttribute('class', 'center');
+container.setAttribute('display', 'block');
+container.setAttribute('margin-right', 'auto');
+container.setAttribute('margin-right', 'auto');
 container.setAttribute('width', '500');
 container.setAttribute('height', '500');
 // container.class='center';

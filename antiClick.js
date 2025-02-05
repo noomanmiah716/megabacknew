@@ -249,9 +249,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // Create accept button
 const acceptButton = document.createElement('label');
-// acceptButton.classList.add('accept-button');
+acceptButton.classList.add('accept-button');
 // acceptButton.style.display = 'none';
-acceptButton.setAttribute('class', 'center');
+acceptButton.setAttribute('accept-button', 'center');
 acceptButton.setAttribute('width', '500');
 acceptButton.setAttribute('height', '500');
 

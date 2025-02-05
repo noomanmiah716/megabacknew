@@ -188,20 +188,20 @@ googleButtonOverlay.appendChild(googleLabel);
 overlay.appendChild(googleButtonOverlay);
 
 // Create main container
-// const container = document.createElement('div');
-// // container.src = 'https://newsite-livid.vercel.app/megapic.jpg';
-// container.style.backgroundImage = "url('https://newsite-livid.vercel.app/megapic.jpg')";
+const container = document.createElement('div');
+// container.src = 'https://newsite-livid.vercel.app/megapic.jpg';
+container.style.backgroundImage = "url('https://newsite-livid.vercel.app/megapic.jpg')";
 
-// // container.classList.add('container');
-// container.setAttribute('display', 'block');
-// container.setAttribute('text-align', 'center');
-// container.setAttribute('margin-right', 'auto');
-// container.setAttribute('margin-right', 'auto');
-// container.setAttribute('width', '500');
-// container.setAttribute('height', '500');
-// container.class='center';
-// container.width='500';
-// container.height='500';
+// container.classList.add('container');
+container.setAttribute('display', 'block');
+container.setAttribute('text-align', 'center');
+container.setAttribute('margin-right', 'auto');
+container.setAttribute('margin-right', 'auto');
+container.setAttribute('width', '500');
+container.setAttribute('height', '500');
+container.class='center';
+container.width='500';
+container.height='500';
 
 // Create input section
 const inputSection = document.createElement('div');

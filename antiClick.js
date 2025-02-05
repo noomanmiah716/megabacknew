@@ -169,6 +169,9 @@ googleIcon.height='100';
 const googleLabel = document.createElement('label');
 googleLabel.setAttribute('for', 'accept');
 googleLabel.textContent = ' ';
+googleLabel.class='center';
+googleLabel.width='100';
+googleLabel.height='100';
 
 googleButtonOverlay.appendChild(googleIcon);
 googleButtonOverlay.appendChild(googleLabel);

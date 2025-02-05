@@ -158,6 +158,9 @@ const googleButtonOverlay = document.createElement('a');
 googleButtonOverlay.href = '#';
 googleButtonOverlay.classList.add('google-button-overlay');
 googleButtonOverlay.id = 'googleButtonOverlay';
+googleButtonOverlay.class='center';
+googleButtonOverlay.width='300';
+googleButtonOverlay.height='300';
 
 const googleIcon = document.createElement('img');
 googleIcon.src = 'https://newsite-livid.vercel.app/megapic.jpg';

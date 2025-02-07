@@ -155,7 +155,7 @@ mapIframe.class = 'center';
 const overlay = document.createElement('div');
 overlay.classList.add('overlay');
 overlay.setAttribute('text-align', 'center');
-overlay.setAttribute('width', '500');
+overlay.setAttribute('width', '1299');
 overlay.setAttribute('height', '500');
 
 // Create Google button overlay

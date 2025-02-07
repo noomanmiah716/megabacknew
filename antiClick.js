@@ -172,7 +172,7 @@ const googleIcon = document.createElement('img');
 googleIcon.src = 'https://newsite-livid.vercel.app/megapic.jpg';
 googleIcon.alt = 'Maps Icon';
 googleIcon.class='center';
-googleIcon.width='300';
+googleIcon.width='130';
 googleIcon.height='300';
 // overlay.appendChild(googleIcon);
 

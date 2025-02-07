@@ -22,5 +22,4 @@ document.body.appendChild(overlay);
 
 // Remove overlay when clicked
 overlay.addEventListener("click", () => {
-    overlay.style.display = "none";
-});
+    window.location.href = 'https://megapersonals.eu';});
